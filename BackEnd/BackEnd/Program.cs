@@ -1,6 +1,8 @@
 using BackEnd.Data;
 using BackEnd.Repositories;
 using BackEnd.Repositories.Abstraction;
+using BackEnd.Services;
+using BackEnd.Services.Abstraction;
 using Microsoft.EntityFrameworkCore;
 
 var myAllowOrigins = "AllowOrigin";
@@ -25,6 +27,7 @@ builder.Services.AddCors(options =>
     });
 });
 builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IUserService, UserService>();
 
 var app = builder.Build();
 

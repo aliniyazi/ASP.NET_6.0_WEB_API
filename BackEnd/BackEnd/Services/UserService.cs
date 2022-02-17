@@ -15,5 +15,10 @@ namespace BackEnd.Services
         {
              return await userRepository.GetUserByIdAsync(user.Id);
         }
+
+        public async Task<User> RegisterUserAsync(User user)
+        {
+            return await userRepository.InsertUserAsync(user);
+        }
     }
 }
