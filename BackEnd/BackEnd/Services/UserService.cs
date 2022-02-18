@@ -13,6 +13,12 @@ namespace BackEnd.Services
         {
             this.userRepository = userRepository;
         }
+
+        public async Task<ICollection<User>> GetUsersAsync()
+        {
+            return await this.userRepository.GetAllUsersAsync();
+        }
+
         public async Task<User> LoginUserAsync(User user)
         {
             return await userRepository.GetUserByIdAsync(user.Id);
@@ -28,5 +34,6 @@ namespace BackEnd.Services
             }
             return null;
         }
+        
     }
 }

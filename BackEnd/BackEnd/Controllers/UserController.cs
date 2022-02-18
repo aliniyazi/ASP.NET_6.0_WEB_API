@@ -16,10 +16,16 @@ namespace BackEnd.Controllers
         {
             this.userService = userService;
         }
-
+        [HttpGet]
+        public async Task<IActionResult> GetAllUsersAsync()
+        {
+            var result = await this.userService.GetUsersAsync();
+            return Ok(result);
+        }
         [HttpPost("user")]
         public async Task<IActionResult> RegisterUserAsync([FromForm] RegisterUserRequest user)
         {
+
             var result = await this.userService.RegisterUserAsync(user);
             if(result != null)
             {
