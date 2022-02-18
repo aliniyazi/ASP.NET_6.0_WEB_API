@@ -10,7 +10,7 @@ namespace BackEnd.Data.Models
         public int DishId { get; set; }
         public Dish? Dish { get; set; }
         public bool isDeleted { get; set; }
-        public DateTime DeletedOn { get; set; }
+        public DateTime? DeletedOn { get; set; }
         public ICollection<Rating> Rating { get; set; } = new HashSet<Rating>();
     }
 }

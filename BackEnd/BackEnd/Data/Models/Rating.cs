@@ -14,6 +14,6 @@ namespace BackEnd.Data.Models
         public User? User { get; set; }
         public int UserId { get; set; }
         public bool isDeleted { get; set; }
-        public DateTime DeletedOn { get; set; }
+        public DateTime? DeletedOn { get; set; }
     }
 }

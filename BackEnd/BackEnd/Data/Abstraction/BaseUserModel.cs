@@ -17,9 +17,11 @@ namespace BackEnd.Data.Abstraction
         [Required]
         public string? Email { get; set; }
         [Required]
+        public string? Password { get; set; }
+        [Required]
         public DateTime RegisterDate { get; set; }
         public bool isDeleted { get; set; }
-        public DateTime DeletedOn { get; set; }
+        public DateTime? DeletedOn { get; set; }
         public int AddressId { get; set; }
         public Address? Address { get; set; }
     }

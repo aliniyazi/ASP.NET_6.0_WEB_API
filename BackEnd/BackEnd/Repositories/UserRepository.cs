@@ -25,6 +25,12 @@ namespace BackEnd.Repositories
             return await dBContext.Users.ToListAsync();
         }
 
+        public async Task<User> GetUserByEmailAsync(string email)
+        {
+            var result = await dBContext.Users.FirstOrDefaultAsync(u => u.Email == email);
+            return result;
+        }
+
         public async Task<User> GetUserByIdAsync(int id)
         {
             return await dBContext.Users.FindAsync(id);

@@ -13,7 +13,7 @@ namespace BackEnd.Data.Models
         [Required]
         public string? Name { get; set; }
         public bool isDeleted { get; set; }
-        public DateTime DeletedOn { get; set; }
+        public DateTime? DeletedOn { get; set; }
         public ICollection<ChefDish> ChefDishes { get; set; }
     }
 }
