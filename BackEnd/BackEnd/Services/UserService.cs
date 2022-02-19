@@ -18,6 +18,10 @@ namespace BackEnd.Services
         {
             return await this.userRepository.GetAllUsersAsync();
         }
+        public async Task<User> GetUserByIdAsync(int request)
+        {
+            return await this.userRepository.GetUserByIdAsync(request);
+        }
 
         public async Task<User> LoginUserAsync(User user)
         {

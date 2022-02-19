@@ -8,5 +8,6 @@ namespace BackEnd.Services.Abstraction
         Task<User> LoginUserAsync(User user);
         Task<User> RegisterUserAsync(RegisterUserRequest user);
         Task<ICollection<User>> GetUsersAsync();
+        Task<User> GetUserByIdAsync(int id);
     }
 }
