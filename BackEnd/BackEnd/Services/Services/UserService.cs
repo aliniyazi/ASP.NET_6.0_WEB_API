@@ -137,7 +137,7 @@ namespace BackEnd.Services
             // the decrypted text.
             string plaintext = null;
 
-            // Create an Aes object
+            
             // with the specified key and IV.
             using (Aes aesAlg = Aes.Create())
             {
