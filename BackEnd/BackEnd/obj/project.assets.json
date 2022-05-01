@@ -9664,11 +9664,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ali\\Desktop\\Projects\\Restaurant\\BackEnd\\BackEnd\\BackEnd.csproj",
+      "projectUniqueName": "C:\\Users\\Ali\\Source\\Repos\\ASP.NET_6.0_WEB_API\\BackEnd\\BackEnd\\BackEnd.csproj",
       "projectName": "BackEnd",
-      "projectPath": "C:\\Users\\Ali\\Desktop\\Projects\\Restaurant\\BackEnd\\BackEnd\\BackEnd.csproj",
+      "projectPath": "C:\\Users\\Ali\\Source\\Repos\\ASP.NET_6.0_WEB_API\\BackEnd\\BackEnd\\BackEnd.csproj",
       "packagesPath": "C:\\Users\\Ali\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ali\\Desktop\\Projects\\Restaurant\\BackEnd\\BackEnd\\obj\\",
+      "outputPath": "C:\\Users\\Ali\\Source\\Repos\\ASP.NET_6.0_WEB_API\\BackEnd\\BackEnd\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ali\\AppData\\Roaming\\NuGet\\NuGet.Config",
