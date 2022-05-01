@@ -25,6 +25,12 @@ namespace BackEnd.Repositories
             return await dBContext.Users.ToListAsync();
         }
 
+        public async Task<User> GetUserByEmailAndPasswordAsync(string Email, string Password)
+        {
+            var result = await dBContext.Users.FirstOrDefaultAsync(u => u.Email == Email && u.Password == Password);
+            return result;
+        }
+
         public async Task<User> GetUserByEmailAsync(string email)
         {
             var result = await dBContext.Users.FirstOrDefaultAsync(u => u.Email == email);
@@ -34,6 +40,12 @@ namespace BackEnd.Repositories
         public async Task<User> GetUserByIdAsync(int id)
         {
             return await dBContext.Users.FindAsync(id);
+        }
+
+        public async Task<User> GetUserByPasswordAsync(string password)
+        {
+            var result = await dBContext.Users.FirstOrDefaultAsync(u => u.Password == password);
+            return result;
         }
 
         public async Task<User> InsertUserAsync(User user)

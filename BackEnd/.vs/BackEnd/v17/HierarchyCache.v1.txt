@@ -1,0 +1,213 @@
+﻿++Solution 'BackEnd' ‎(1 of 1 project)
+i:{00000000-0000-0000-0000-000000000000}:BackEnd.sln
+++BackEnd
+i:{00000000-0000-0000-0000-000000000000}:BackEnd
+++Connected Services 
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:>795
+++Microsoft identity platform
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:>827
+++SQL Server Database (ConnectionStrings:DefaultConnection)
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:>829
+++Dependencies
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:>794
+++Analyzers
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:analyzers
+++Frameworks
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:frameworks
+++Microsoft.AspNetCore.App
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\microsoft.aspnetcore.app
+++Microsoft.NETCore.App
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\microsoft.netcore.app
+++Packages
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:packages
+++Properties
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\properties\
+++Controllers
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\controllers\
+++UserController.cs
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\controllers\usercontroller.cs
+++Data
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\data\
+++Abstraction
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\data\abstraction\
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\repositories\abstraction\
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\services\abstraction\
+++BaseUserModel.cs
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\data\abstraction\baseusermodel.cs
+++IDeletable.cs
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\data\abstraction\ideletable.cs
+++Enums
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\data\enums\
+++ChefExperienceLevel.cs
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\data\enums\chefexperiencelevel.cs
+++UserType.cs
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\data\enums\usertype.cs
+++Models
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\data\models\
+++Address.cs
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\data\models\address.cs
+++Chef.cs
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\data\models\chef.cs
+++ChefDish.cs
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\data\models\chefdish.cs
+++Dish.cs
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\data\models\dish.cs
+++Rating.cs
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\data\models\rating.cs
+++User.cs
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\data\models\user.cs
+++DBContext.cs
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\data\dbcontext.cs
+++Migrations
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\migrations\
+++Repositories
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\repositories\
+++IUserRepository.cs
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\repositories\abstraction\iuserrepository.cs
+++UserRepository.cs
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\repositories\userrepository.cs
+++Services
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\services\
+++IUserService.cs
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\services\abstraction\iuserservice.cs
+++DTOs
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\services\dtos\
+++Mappers
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\services\mappers\
+++Mapper.cs
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\services\mappers\mapper.cs
+++Requests
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\services\requests\
+++LoginUserRequest.cs
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\services\requests\loginuserrequest.cs
+++RegisterUserRequest.cs
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\services\requests\registeruserrequest.cs
+++UserService.cs
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\services\userservice.cs
+++appsettings.json
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\appsettings.json
+++Program.cs
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\program.cs
+++For applications that authenticate users with the Microsoft identity platform (Azure AD, Azure AD B2C and personal Microsoft accounts).
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:>828
+++SQL Server Database dependency with connectionId 'ConnectionStrings:DefaultConnection' is detected
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:>830
+++MessagePackAnalyzer
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\.nuget\packages\messagepackanalyzer\2.1.152\analyzers\dotnet\messagepackanalyzer.dll
+++Microsoft.AspNetCore.Analyzers
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.SourceGenerator.Tooling.Internal
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.sourcegenerator.tooling.internal.dll
+++Microsoft.CodeAnalysis.Analyzers
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.Analyzers
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.2\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++System.Text.Json.SourceGeneration
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.2\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.EntityFrameworkCore.SqlServer (6.0.2)
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:>807
+++Microsoft.EntityFrameworkCore.Tools (6.0.2)
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:>810
+++Microsoft.VisualStudio.Web.CodeGeneration.Design (6.0.2)
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:>811
+++Swashbuckle.AspNetCore (6.2.3)
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:>809
+++System.IdentityModel.Tokens.Jwt (6.16.0)
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:>808
+++launchSettings.json
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\properties\launchsettings.json
+++20220205160405_initial.cs
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\migrations\20220205160405_initial.cs
+++20220205173452_addedoptions.cs
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\migrations\20220205173452_addedoptions.cs
+++20220205174752_addednullable.cs
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\migrations\20220205174752_addednullable.cs
+++20220205174930_addotheroptions.cs
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\migrations\20220205174930_addotheroptions.cs
+++20220205185932_addedrating.cs
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\migrations\20220205185932_addedrating.cs
+++20220205202815_addedmanytomany.cs
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\migrations\20220205202815_addedmanytomany.cs
+++20220205204253_something.cs
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\migrations\20220205204253_something.cs
+++20220205204508_ofof.cs
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\migrations\20220205204508_ofof.cs
+++20220206102923_addedaddress.cs
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\migrations\20220206102923_addedaddress.cs
+++20220210090601_addedratingcolumn.cs
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\migrations\20220210090601_addedratingcolumn.cs
+++20220210091052_addedratingcolumnnaming.cs
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\migrations\20220210091052_addedratingcolumnnaming.cs
+++20220212092920_addeduser.cs
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\migrations\20220212092920_addeduser.cs
+++20220212093220_addeduserprops.cs
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\migrations\20220212093220_addeduserprops.cs
+++20220212094004_fixedchefanduser.cs
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\migrations\20220212094004_fixedchefanduser.cs
+++20220212104240_addedcors.cs
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\migrations\20220212104240_addedcors.cs
+++20220213102024_addedideletable.cs
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\migrations\20220213102024_addedideletable.cs
+++20220218182837_addednullabledeletedate.cs
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\migrations\20220218182837_addednullabledeletedate.cs
+++20220218200557_addedpass.cs
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\migrations\20220218200557_addedpass.cs
+++DBContextModelSnapshot.cs
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\migrations\dbcontextmodelsnapshot.cs
+++appsettings.Development.json
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\appsettings.development.json
+++20220205160405_initial.Designer.cs
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\migrations\20220205160405_initial.designer.cs
+++20220205173452_addedoptions.Designer.cs
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\migrations\20220205173452_addedoptions.designer.cs
+++20220205174752_addednullable.Designer.cs
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\migrations\20220205174752_addednullable.designer.cs
+++20220205174930_addotheroptions.Designer.cs
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\migrations\20220205174930_addotheroptions.designer.cs
+++20220205185932_addedrating.Designer.cs
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\migrations\20220205185932_addedrating.designer.cs
+++20220205202815_addedmanytomany.Designer.cs
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\migrations\20220205202815_addedmanytomany.designer.cs
+++20220205204253_something.Designer.cs
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\migrations\20220205204253_something.designer.cs
+++20220205204508_ofof.Designer.cs
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\migrations\20220205204508_ofof.designer.cs
+++20220206102923_addedaddress.Designer.cs
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\migrations\20220206102923_addedaddress.designer.cs
+++20220210090601_addedratingcolumn.Designer.cs
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\migrations\20220210090601_addedratingcolumn.designer.cs
+++20220210091052_addedratingcolumnnaming.Designer.cs
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\migrations\20220210091052_addedratingcolumnnaming.designer.cs
+++20220212092920_addeduser.Designer.cs
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\migrations\20220212092920_addeduser.designer.cs
+++20220212093220_addeduserprops.Designer.cs
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\migrations\20220212093220_addeduserprops.designer.cs
+++20220212094004_fixedchefanduser.Designer.cs
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\migrations\20220212094004_fixedchefanduser.designer.cs
+++20220212104240_addedcors.Designer.cs
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\migrations\20220212104240_addedcors.designer.cs
+++20220213102024_addedideletable.Designer.cs
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\migrations\20220213102024_addedideletable.designer.cs
+++20220218182837_addednullabledeletedate.Designer.cs
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\migrations\20220218182837_addednullabledeletedate.designer.cs
+++20220218200557_addedpass.Designer.cs
+i:{d1e666a5-149f-4ae9-b749-c1c837978ae5}:c:\users\ali\desktop\projects\restaurant\backend\backend\migrations\20220218200557_addedpass.designer.cs
+++SystemSecurity (1.0.1)

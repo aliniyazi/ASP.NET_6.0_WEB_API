@@ -32,7 +32,7 @@ namespace BackEnd.Controllers
             }
             return BadRequest("User dont exist");
         }
-        [HttpPost("user")]
+        [HttpPost("register")]
         public async Task<IActionResult> RegisterUserAsync([FromForm] RegisterUserRequest user)
         {
 
@@ -42,6 +42,16 @@ namespace BackEnd.Controllers
                 return Ok();
             }
             return BadRequest("Error");
+        }
+        [HttpPost("login")]
+        public async Task<IActionResult> LoginUserAsync([FromBody] LoginUserRequest user)
+        {
+            var result = await this.userService.LoginUserAsync(user);
+            if(result != null)
+            {
+                return Ok(result);
+            }
+            return BadRequest("User Dont exist");
         }
     }
 }
